@@ -98,6 +98,7 @@ a {
   position: sticky;
   top: -38px;
   background-color: #fff;
+  z-index: 100;
 }
 
 .header__inner {
@@ -176,6 +177,8 @@ a {
 
 .hero__inner {
   padding-top: 72px;
+  display: flex;
+  gap: 168px;
 }
 
 .hero__content {
@@ -254,4 +257,101 @@ a {
 }
 
 .hero__media {
+  width: 100%;
+  position: relative;
+}
+
+.deposite-card {
+  position: absolute;
+  top: 113px;
+  left: -100px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 1.4em 1em;
+  width: 17.4em;
+  height: 4.6em;
+  border-radius: 0.6em;
+  background: #fff;
+  box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.07);
+}
+
+.deposite-card__icon {
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.deposite-card__text {
+  margin-left: 0.8em;
+  color: #31456a;
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.deposite-card__price {
+  margin-left: 0.9em;
+  color: #4ab5e3;
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.interest-circle {
+  position: absolute;
+  top: 127px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1rem;
+  width: 13em;
+  height: 13em;
+  border-radius: 100%;
+  background-color: #da6464;
+}
+
+.interest-circle__percent {
+  color: #fff;
+  font-size: 4.4em;
+  font-weight: 600;
+}
+
+.interest-circle__text {
+  color: #fff;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+.secured-funds {
+  position: absolute;
+  right: 100px;
+  bottom: 61px;
+  display: flex;
+  font-size: 1rem;
+  width: 12.4em;
+  height: 6.8em;
+  border-radius: 1em;
+  background: #439f90;
+  padding: 2em 1.4em;
+}
+
+.secured-funds__content {
+  margin-left: 11px;
+}
+
+.secured-funds__price {
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.secured-funds__text {
+  margin-top: 5px;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1;
 }
