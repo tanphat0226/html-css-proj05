@@ -744,3 +744,141 @@ a {
 .payments-card__item:last-child {
   background: #f9ea63;
 }
+
+/* Testimonial */
+.testimonials {
+  margin-top: 160px;
+}
+
+.testimonials__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials__title {
+  margin-top: 12px;
+}
+
+.testimonials__decs {
+  margin-top: 18px;
+  width: 435px;
+  text-align: center;
+  color: #696d76;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.testimonials-list {
+  margin-top: 70px;
+  display: flex;
+  gap: 30px;
+}
+
+.testimonials-item__blockquote {
+  position: relative;
+  padding: 42px 28px;
+  width: 570px;
+  height: 254px;
+  color: #696d76;
+  text-align: center;
+  font-size: 2.2rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.55;
+  border: 1px solid #dfe2e8;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.testimonials-item__blockquote::before {
+  position: absolute;
+  bottom: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  border-width: 60px;
+  border-style: solid;
+  border-color: #dfe2e8 transparent transparent transparent;
+}
+
+.testimonials-item__blockquote:after {
+  position: absolute;
+  bottom: -118px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  border-width: 60px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  z-index: 1;
+}
+
+.testimonials-item__blockquote:hover {
+  filter: drop-shadow(0px 22px 54px rgba(0, 0, 0, 0.07));
+}
+
+.testimonials-item__blockquote:hover::before {
+  border-top-color: #fff;
+}
+
+.testimonials-item__avatar {
+  position: relative;
+  margin: 96px auto 0;
+  width: 104px;
+  height: 104px;
+  border-radius: 100%;
+  background-color: #4ab5e3;
+  overflow: hidden;
+}
+
+.testimonials-item__avatar-img {
+  position: absolute;
+  top: 12px;
+  width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.testimonials-item__name {
+  margin-top: 20px;
+  color: #070052;
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38;
+}
+
+.testimonials-item__job-title {
+  margin-top: 2px;
+  color: #696d76;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.66;
+}
+
+.testimonials-item:nth-child(2) .testimonials-item__avatar {
+  background: #439f90;
+}
+
+.testimonials__pagination {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.testimonials__pagination-item {
+  width: 22px;
+  height: 6px;
+  border-radius: 1px;
+  border: 1px solid #9b9fab;
+  cursor: pointer;
+}
+
+.testimonials__pagination-item--active {
+  background-color: #7264d6;
+}
