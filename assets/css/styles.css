@@ -67,6 +67,13 @@ a {
   background-color: #7264d6;
 }
 
+.section-title {
+  color: #212832;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
 .section-subtitle {
   position: relative;
   margin-left: 30px;
@@ -194,7 +201,7 @@ a {
   line-height: 1.17;
 }
 
-.hero__heading--hightlight {
+.hero__heading--highlight {
   color: #7264d6;
 }
 
@@ -261,7 +268,7 @@ a {
   position: relative;
 }
 
-.deposite-card {
+.deposit-card {
   position: absolute;
   top: 113px;
   left: -100px;
@@ -276,12 +283,12 @@ a {
   box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.07);
 }
 
-.deposite-card__icon {
+.deposit-card__icon {
   width: 1.8em;
   height: 1.8em;
 }
 
-.deposite-card__text {
+.deposit-card__text {
   margin-left: 0.8em;
   color: #31456a;
   font-size: 1.4em;
@@ -289,7 +296,7 @@ a {
   line-height: 1;
 }
 
-.deposite-card__price {
+.deposit-card__price {
   margin-left: 0.9em;
   color: #4ab5e3;
   font-size: 1.4em;
@@ -362,13 +369,16 @@ a {
 }
 
 .works__inner {
-  padding: 100px;
+  display: flex;
+  gap: 230px;
+  padding-top: 100px;
 }
 
 .works__thumb {
   position: relative;
   width: 456px;
   height: 619px;
+  flex-shrink: 0;
 }
 
 .works__thumb-bg {
@@ -410,7 +420,7 @@ a {
   border-radius: 0.4em;
 }
 
-.actived-card {
+.active-card {
   position: absolute;
   right: -100px;
   bottom: 96px;
@@ -427,7 +437,7 @@ a {
   box-shadow: 0em 1.4em 3.4em 0em rgba(0, 0, 0, 0.07);
 }
 
-.actived-card__icon-wrapper {
+.active-card__icon-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -437,7 +447,7 @@ a {
   background-color: #4ab5e3;
 }
 
-.actived-card__icon-bg {
+.active-card__icon-bg {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -447,17 +457,48 @@ a {
   background: #ffffff;
 }
 
-.actived-card__title {
+.active-card__title {
   color: #212832;
   font-family: Inter;
   font-size: 1.4rem;
   font-weight: 600;
 }
 
-.actived-card__text {
+.active-card__text {
   margin-top: 5px;
   color: #696d76;
   font-family: Inter;
   font-size: 1.2rem;
   font-weight: 400;
+}
+
+.works__content {
+  margin-top: 29px;
+}
+
+.works__title {
+  margin-top: 12px;
+}
+
+.works-list {
+  padding-top: 40px;
+}
+
+.works-item {
+}
+
+.works-item__title {
+  margin-top: 30px;
+  color: #212832;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.works-item__desc {
+  margin-top: 16px;
+  color: #696d76;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
 }
