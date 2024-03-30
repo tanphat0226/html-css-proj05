@@ -77,7 +77,6 @@ a {
 .section-subtitle {
   position: relative;
   margin-left: 30px;
-
   color: #696d77;
   font-size: 1.6rem;
   font-weight: 400;
@@ -86,7 +85,7 @@ a {
 
 .section-desc {
   color: #696d76;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.67;
 }
@@ -764,10 +763,6 @@ a {
   margin-top: 18px;
   width: 435px;
   text-align: center;
-  color: #696d76;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 1.75;
 }
 
 .testimonials-list {
@@ -906,9 +901,6 @@ a {
 .blog__decs {
   width: 435px;
   margin-top: 18px;
-  color: #696d76;
-  font-size: 1.6rem;
-  font-weight: 400;
   line-height: 1.75;
 }
 
@@ -988,4 +980,86 @@ a {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.625;
+}
+
+/* App */
+.app {
+  margin-top: 160px;
+}
+
+.app__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  border-radius: 24px;
+  background: #7264d6;
+  color: #fff;
+}
+
+.app__subtitle::before {
+  background-color: #fff;
+}
+.app__desc,
+.app__subtitle,
+.app__title {
+  color: #fff;
+}
+.app__title {
+  margin-top: 12px;
+}
+
+.app__desc {
+  margin-top: 18px;
+  width: 435px;
+  text-align: center;
+}
+
+.app__buttons {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 182px;
+  height: 64px;
+  background-color: #fff;
+  padding: 18px 32px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.app__btn:hover {
+  background-color: #212832;
+  opacity: 0.8;
+}
+
+.app__star {
+  position: absolute;
+}
+
+.app__star:first-child {
+  top: 49px;
+  left: 112px;
+}
+
+.app__star:nth-child(2) {
+  bottom: 49px;
+  left: 166px;
+}
+
+.app__star:nth-child(3) {
+  top: 49px;
+  right: 112px;
+}
+
+.app__star:nth-child(4) {
+  bottom: 49px;
+  right: 166px;
 }
