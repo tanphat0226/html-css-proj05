@@ -11,8 +11,7 @@
   .hide-on-tablet-mobile {
     display: none;
   }
-
-  .separate {
+  .header__inner .separate {
     border-top: 1px solid #ebebeb;
   }
 
@@ -291,6 +290,10 @@
     min-width: 94px;
     padding: 4px 0;
     font-size: 1.4rem;
+  }
+
+  .header__inner {
+    padding: 8px 0;
   }
 
   .hero__inner {
