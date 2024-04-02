@@ -754,7 +754,11 @@ a {
 
 /* Testimonial */
 .testimonials {
-  margin-top: 160px;
+  margin-top: 60px;
+}
+
+.testimonials__inner {
+  padding-top: 100px;
 }
 
 .testimonials__header {

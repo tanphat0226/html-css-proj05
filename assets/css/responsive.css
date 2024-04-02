@@ -104,7 +104,6 @@
     padding-top: 60px;
     flex-direction: column-reverse;
     gap: 100px;
-    border-top: 0.5px dashed #ebebeb;
   }
 
   .works-list {
@@ -167,10 +166,6 @@
   .income-card {
     right: 90px;
     bottom: 50px;
-  }
-
-  .feature-second {
-    margin-top: 0;
   }
 
   .feature-second__thumb {
@@ -276,6 +271,14 @@
 @media (max-width: 767.98px) {
   .container {
     max-width: calc(100% - 16px);
+  }
+
+  .blog__inner,
+  .testimonials__inner,
+  .feature__inner,
+  .works__inner,
+  .feature__inner {
+    border-top: 0.5px dashed #ebebeb;
   }
 
   .header__toggle {
