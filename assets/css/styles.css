@@ -111,7 +111,7 @@ a {
   position: sticky;
   top: -38px;
   background-color: #fff;
-  z-index: 100;
+  z-index: 1;
 }
 
 .header__inner {
