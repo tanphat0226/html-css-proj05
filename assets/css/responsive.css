@@ -451,6 +451,15 @@
   .footer__inner {
     flex-wrap: wrap;
     gap: 60px;
+
+    padding: 100px 8px;
+  }
+
+  .footer__form-input,
+  .footer__address,
+  .footer__item-link,
+  .footer__title {
+    font-size: 1.6rem;
   }
 
   .footer__form-input {
@@ -463,5 +472,9 @@
 
   .works__inner {
     gap: 60px;
+  }
+
+  .footer__copyright {
+    font-size: 1.4rem;
   }
 }
